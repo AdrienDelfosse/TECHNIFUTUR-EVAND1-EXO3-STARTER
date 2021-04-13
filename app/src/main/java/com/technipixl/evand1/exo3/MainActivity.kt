@@ -38,7 +38,7 @@ class MainActivity : Activity(), View.OnClickListener {
     }
 
     private val stringData: String
-        private get() {
+        get() {
             val builder = StringBuilder()
             for (item in listItems) {
                 builder.append(item.trimIndent())
