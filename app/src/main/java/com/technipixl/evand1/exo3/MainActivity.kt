@@ -30,11 +30,16 @@ class MainActivity : Activity(), View.OnClickListener {
     }
 
     private fun fillData() {
-        listItems.add("Item 1")
-        listItems.add("item 2")
-        listItems.add("Item 3")
-        listItems.add("Item 4")
-        listItems.add("Item 5")
+        listItems.add("Element 1")
+        listItems.add("Element 2")
+        listItems.add("Element 3")
+        listItems.add("Element 4")
+        listItems.add("Element 5")
+        listItems.add("Element 6")
+        listItems.add("Element 7")
+        listItems.add("Element 8")
+        listItems.add("Element 9")
+        listItems.add("Element 10")
     }
 
     private val stringData: String
