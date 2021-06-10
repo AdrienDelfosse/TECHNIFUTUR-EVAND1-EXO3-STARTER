@@ -15,11 +15,11 @@ class MainActivity : Activity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         (findViewById<View>(R.id.buttonNext) as Button).setOnClickListener(this)
+        fillData()
     }
 
     override fun onStart() {
         super.onStart()
-        fillData()
         updateUI()
     }
 
